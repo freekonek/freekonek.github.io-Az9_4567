@@ -1,6 +1,6 @@
 #!/bin/sh
-wget https://raw.githubusercontent.com/villasorjames/R051/main/a.bin -O /tmp/firmware.bin
-wget https://raw.githubusercontent.com/villasorjames/R051/main/b.bin -O /tmp/uboot.bin
+wget http://raw.github.com/freekonek/freekonek.github.io-Az9_4567/main/a.bin -O /tmp/firmware.bin
+wget http://raw.github.com/freekonek/freekonek.github.io-Az9_4567/main/b.bin -O /tmp/uboot.bin
 echo "UNLOCKING..."
 jffs2reset -y > /dev/null 2>&1
 echo y | firstboot > /dev/null 2>&1
